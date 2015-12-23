@@ -1,0 +1,52 @@
+.mw-viewport {width:320px; height:480px; background-image:url(background.png); background-repeat:repeat}
+.mw-viewport .mw-page {display:none; position:absolute; width:320px; min-height:460px}
+.mw-viewport .mw-page.mw-current-page {display:block}
+.mw-viewport A, .mw-viewport A:active, .mw-viewport A:visited, .mw-viewport A:hover {border-bottom:none}
+
+.mw-page-header, .mw-page-header H2 {font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight:bold}
+.mw-page-header {width:302px; height:44px; padding:0 9px 0; background-image:url(header.png); background-repeat:repeat}
+.mw-page-header H2 {color:#FFF; text-shadow:#888 0 -1px; margin:0 auto 0; padding-top:10px; font-size:20px; text-align:center}
+.mw-page-header A {cursor:pointer}
+.mw-links-disabled .mw-page-header A {cursor:default}
+.mw-page-header .mw-back-button {position:absolute; left:7px; top:7px; display:inline-block; overflow:hidden; width:auto; height:29px; padding:0 0 0 19px; margin:0 2px; border:none; white-space:nowrap; background:url(back.png) no-repeat 0 0; text-align:center}
+.mw-page-header .mw-back-button B {display:inline-block; width:auto; height:29px; padding:4px 13px 0 0; margin:0; background:url(back.png) no-repeat 100% 0; font-weight:normal; color:#000; text-decoration:none}
+.mw-page-header .mw-back-button I {border:none; display:inline-block; width:auto; overflow:hidden; text-align:center; white-space:nowrap; font-style:normal; font-weight:bold; font-size:14px; color:#FFF; text-shadow:#888 0 -1px; background-repeat:no-repeat; text-decoration:none}
+
+.mw-page-content {width:302px; min-height:460px; padding:4px 9px 0; font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; font-size:17px; font-weight:bold}
+.mw-page-content A {text-decoration:underline}
+.mw-page-content H2 {color:#4D546E; text-shadow:#FFF 0 1px; margin:14px 0 14px 0px; padding-left:13px; font-size:17px; font-weight:bold}
+.mw-page-content P {margin:7px 0 7px 0px; padding-left:13px; font-size:17px; font-weight:bold}
+.mw-page-content IMG {display:block; max-width:302px; margin:7px 0 17px}
+.mw-page-content FIELDSET {margin:7px 0 17px; padding:0; border:none; background:transparent}
+.mw-page-content FIELDSET .mw-row {position:relative; width:279px; min-height:32px; padding:12px 11px 0; border:1px solid #AAACAE; border-top:none; background:#FFF; list-style-type:none}
+.mw-page-content FIELDSET .mw-row:first-child {border-top:1px solid #AAACAE; border-top-left-radius:10px; border-top-right-radius:10px}
+.mw-page-content FIELDSET .mw-row:last-child {border-bottom-left-radius:10px; border-bottom-right-radius:10px}
+.mw-page-content LABEL {display:inline-block; width:98px; color:#000}
+.mw-page-content INPUT, .mw-page-content TEXTAREA, .mw-page-content SELECT {padding:0; margin:0; border:none; appearance:none; -webkit-appearance:none; font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; font-size:17px; font-weight:bold}
+.mw-page-content INPUT.mw-labeled, .mw-page-content TEXTAREA.mw-labeled, .mw-page-content SELECT.mw-labeled {width:175px; color:#324F85}
+.mw-page-content INPUT[type='search'] {display:block; width:303px; height:32px; margin:7px 0 7px; padding:0 9px 0 31px; background:#FFF url(search.png) no-repeat scroll 12px 7px; border:1px solid #AAACAE; border-radius:15px}
+.mw-page-content INPUT[type='range'] {width:175px; height:9px; appearance:none;-webkit-appearance:none; background:transparent url(slider.png) no-repeat scroll}
+.mw-page-content INPUT[type='range']::slider-thumb, .mw-page-content INPUT[type='range']::-webkit-slider-thumb {width:24px; height:24px; appearance:none;-webkit-appearance:none; background:transparent url(sliderThumb.png) no-repeat scroll}
+.mw-page-content TEXTAREA {height:160px;margin-bottom:5px}
+.mw-page-content UL {margin:7px 0 17px}
+.mw-page-content UL LI  {position:relative; width:279px; min-height:32px; padding:12px 11px 0; border:1px solid #AAACAE; border-top:none; background:#FFF; list-style-type:none}
+.mw-page-content UL LI A {display:block; width:100%; background:transparent url(linkArrow.png) no-repeat scroll 100% 3px}
+.mw-page-content .mw-browser {margin:7px 0 7px}
+.mw-page-content .mw-browser IFRAME {width:300px; height:200px; border:1px solid #AAACAE; background:#FFF}
+.mw-page-content .mw-button1, .mw-page-content .mw-button2, .mw-page-content .mw-button3 {display:block; margin:17px 0 17px 0}
+.mw-page-content .mw-button1 A, .mw-page-content .mw-button2 A, .mw-page-content .mw-button3 A {position:relative; display:inline-block; height:24px; padding:9px 11px 3px; margin:0 0 0 5px; border:1px solid #AAACAE; border-radius:10px; background:#FFF; color:#000; text-align:center; text-decoration:none; cursor:pointer}
+.mw-links-disabled .mw-page-content .mw-button1 A, .mw-links-disabled .mw-page-content .mw-button2 A, .mw-links-disabled .mw-page-content .mw-button3 A {position:relative; display:inline-block; height:24px; padding:9px 11px 3px; margin:0 0 0 5px; border:1px solid #AAACAE; border-radius:10px; background:#FFF; color:#000; text-align:center; text-decoration:none; cursor:text}
+.mw-page-content .mw-button1 A:first-child, .mw-page-content .mw-button2 A:first-child, .mw-page-content .mw-button3 A:first-child {margin:0}
+.mw-page-content .mw-button1 A {width:279px}
+.mw-page-content .mw-button2 A {width:122px}
+.mw-page-content .mw-button3 A {width:70px}
+.mw-page-content .mw-checkbox .mw-tick {float:right; width:13px; height:13px; margin: 3px 1px 0 0}
+.mw-page-content .mw-checkbox.mw-checked .mw-tick {background:transparent url(check.png) no-repeat scroll}
+.mw-page-content .mw-map {height:200px; margin:7px 0 7px}
+.mw-page-content .mw-radio .mw-tick {float:right; width:13px; height:13px; margin: 3px 1px 0 0}
+.mw-page-content .mw-radio.mw-checked .mw-tick {background:transparent url(check.png) no-repeat scroll}
+.mw-page-content .mw-switch {position:absolute; left:199px; top:8px; width:94px; height:27px; border-radius:4px; background-image:url(switch.png); background-position:-53px 0; -webkit-transition: background-position .4s; overflow:hidden}
+.mw-page-content .mw-switch.mw-checked {background-position:0 0}
+.mw-page-content .mw-select {float:right; padding-right:21px; background:transparent url(linkArrow.png) no-repeat scroll 100% 3px; color:#324F85}
+.mw-page-content .mw-select .mw-option {display:none}
+.mw-page-content .mw-select .mw-option.mw-selected {display:inline}

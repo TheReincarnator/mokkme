@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<project name="mokk.me" default="build" basedir="."
+	xmlns:artifact="antlib:org.apache.maven.artifact.ant">
+
+	<!-- Global definitions -->
+
+	<property environment="env"/>
+
+	<target name="build" description="Builds the application as an exploded WAR">
+		<exec executable="mvn.bat" failonerror="true">
+			<arg value="process-classes" />
+			<arg value="war:exploded" />
+			<arg value="-e" />
+		</exec>
+	</target>
+
+	<target name="clean-build" description="Builds the application as an exploded WAR">
+		<exec executable="mvn.bat" failonerror="true">
+			<arg value="clean" />
+			<arg value="process-classes" />
+			<arg value="war:exploded" />
+			<arg value="-e" />
+		</exec>
+	</target>
+
+</project>

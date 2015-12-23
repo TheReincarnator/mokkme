@@ -1,0 +1,132 @@
+/* Reset */
+
+BODY {background-color:#FFF; color:#444; font-family:Georgia,serif; font-size:16px}
+BODY, H1, H2, P, B, I, U, UL, LI, DL, DT, DD, TABLE, TR, TD, IMG, DIV, SPAN {margin:0; padding:0; border:none}
+H2, P, A, INPUT, TEXTAREA, SELECT {outline:none}
+A, A:active, A:visited {color:#67F; font-weight:bold; text-decoration:none; border-bottom:dotted 1px #67F}
+A:hover {border-bottom:solid 1px #67F}
+TEXTAREA {resize:none}
+
+
+/* Units */
+
+.line:after,.lastUnit:after {clear:both; display:block; visibility:hidden; overflow:hidden; height:0 !important; line-height:0; font-size:xx-large; content:" x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x "}
+.line {*zoom:1}
+.unit {float:left}
+.size1of1 {float:none}
+.size1of2 {width:50%}
+.size1of3 {width:33.33333%}
+.size2of3 {width:66.66666%}
+.lastUnit {display:table-cell; float:none; width:auto; *display:block; *zoom:1; _position:relative; _left:-3px; _margin-right:-3px}
+
+
+/* Buttons */
+
+.button {display:inline-block; overflow:hidden; width:auto; height:24px; padding:0 0 0 12px; margin:0 2px; border:none; white-space:nowrap; background:url(/button/button.png) no-repeat 0 0; text-align:center}
+.button B {display:inline-block; width:auto; height:24px; padding:3px 12px 0 0; margin:0; background:url(/button/button.png) no-repeat 100% 0; font-weight:normal; color:#000; text-decoration:none}
+A:active .button {background-position:0 -24px}
+A.buttonLink, A.buttonLink:active, A.buttonLink:visited, A.buttonLink:hover {border-bottom:none}
+A:active .button B {background-position:100% -24px}
+.button.disabled {background-position:0 -48px}
+.button.disabled B {background-position:100% -48px}
+.button I {border:none; display:inline-block; width:auto; overflow:hidden; text-align:center; white-space:nowrap; font-family:Georgia,serif; font-style:normal; font-size:16px; font-weight:normal; color:#000; background-repeat:no-repeat; text-decoration:none}
+.button.buttonStart I {background-image:url(/button/start.png); padding-left:22px}
+.button.buttonNew I {background-image:url(/button/new.png); padding-left:22px}
+.button.buttonSave I {background-image:url(/button/save.png); padding-left:22px}
+.button.buttonSaveAs I {background-image:url(/button/saveAs.png); padding-left:22px}
+.button.buttonTest I {background-image:url(/button/test.png); padding-left:15px}
+.button.buttonEdit I {background-image:url(/button/edit.png); padding-left:22px}
+.buttonGroup {padding-left:12px}
+
+
+/* Common styles */
+
+H1 {padding:4px 0 0 0; color:#345; font-family:Georgia,serif; font-size:26px; font-weight:bold}
+H1 A, H1 A:active, H1 A:visited, H1 A:hover {border-bottom:none; color:#345}
+H1 .gplusone {display:inline-block; padding-left:16px}
+SPAN.weak, SPAN.beta {padding-left:8px}
+.weak {color:#678; font-size:16px; font-weight:normal}
+.beta {color:#F74; font-size:16px; font-weight:normal}
+
+
+/* General layout */
+
+#body-home .line {padding-top:16px}
+#body-home #main {clear:both; padding-top:20px}
+#body-home #start {clear:both; padding-top:32px}
+#body-home #start P {margin:7px 0 7px}
+#body-edit .mw-viewport {height:460px; border-bottom-left-radius:3px; border-bottom-right-radius:3px; overflow:hidden}
+
+#page {position:relative; z-index:1; width:1030px; margin:8px auto 0}
+
+.menu {float:right; padding-top:10px}
+.menu#viewMenu {display:none}
+
+#leftSidebar {float:left; width:250px; margin:15px 30px 50px 0}
+#phone {float:left; width:379px; height:820px; margin:44px 0 50px 0}
+#tools {float:left; width:320px; margin:15px 0 50px 45px}
+#shareNote {display:none; float:left; width:320px; margin:39px 0 50px 45px}
+#shareNote IMG {padding:12px 0 4px}
+
+#ads {padding-top: 32px;}
+
+#footer {position:fixed; z-index:2; bottom:0; left:0; right:0; text-align:center; padding:4px 0 6px; overflow:visible; white-space:nowrap}
+
+.properties {display:none}
+#templates {display:none}
+
+
+/* Home page styles */
+
+.homeStep H2 {position:relative; top:6px; font-size:36px; font-weight:bold; width:48px; height:48px; background:#DC4; color:#000; border-radius:24px; text-align:center}
+.homeStep IMG {display:block; border:1px solid #C0C8D0; padding:8px}
+
+
+/* Menu styles */
+
+.menu INPUT {font-family:Georgia,serif; font-size:16px}
+
+
+/* Sidebar styles */
+
+.sidebar H2 {margin:24px 0 12px 0; color:#345; font-size:18px; font-weight:bold}
+.sidebar H3 {margin:8px 0 4px 0; font-size:16px; font-weight:normal}
+.sidebar INPUT[type='text'], .sidebar SELECT, .sidebar TEXTAREA {font-family:Georgia,serif; font-size:16px}
+.sidebar .size1of2 INPUT[type='text'], .sidebar .size1of2 SELECT, .sidebar .size1of2 TEXTAREA {width:100%}
+.sidebar LABEL {line-height:22px; vertical-align:top}
+.sidebar SMALL {font-size:90%; font-weight:normal; font-size:14px; color:#367}
+.sidebar .disabled {color:#89A}
+
+.properties {padding-bottom:32px}
+.properties#propPage {display:block}
+
+#pages #pageList {border:1px solid #A5ACB2; margin:0 0 4px; padding:2px; width:226px; height:250px; list-style-type:none; overflow:auto; cursor:default}
+#pages #pageList LI.selected {background-color:#B2B4BF}
+
+#tools .unit {margin:0 7px 0 0}
+#tools .lastUnit {margin:0 0 0 7px}
+#tools .tool {margin:0 0 4px 0}
+
+
+/* Phone styles */
+
+#body-edit #phone {background-image:url(phone/iphone.png); -webkit-user-select:none; user-select:none}
+#body-edit #phone [contenteditable="true"] {-webkit-user-select:text; user-select:text}
+#phone .mw-viewport {position:relative; left:34px; top:150px}
+#phone .mw-viewport .mw-page-content {cursor:default}
+#phone .mw-viewport .mw-page-content .widget {cursor:auto}
+#phone .mw-viewport .widget {position:relative; overflow:visible}
+#phone .mw-viewport .widget .removeHandle {position:absolute; width:22px; height:22px; right:22px; bottom:-22px; z-index:10; background-image:url(phone/remove.png); cursor:default}
+#phone .mw-viewport .widget .dragHandle {position:absolute; width:22px; height:22px; right:-2px; bottom:-22px; z-index:10; background-image:url(phone/move.png); cursor:move}
+#phone .mw-viewport .widget.selected {outline:2px solid #50B2D2}
+
+
+/* Share note styles */
+
+#shareNote P {padding-bottom:16px}
+
+
+/* Footer styles */
+
+#footer {background-color:#FFF}
+#footer B {color:#345; font-weight:bold}
